@@ -1,0 +1,125 @@
+{
+  "items": [
+    {
+      "url": "/page.tsx",
+      "type": "page",
+      "status": "success",
+      "access": "public",
+      "userType": "all"
+    },
+    {
+      "url": "/api/users/google",
+      "type": "api",
+      "status": "success",
+      "method": "POST"
+    },
+    {
+      "url": "/api/users/password-recovery",
+      "type": "api",
+      "status": "success",
+      "method": "POST"
+    },
+    {
+      "url": "/api/users/{userId}/properties",
+      "type": "api",
+      "status": "success",
+      "method": "GET"
+    },
+    {
+      "url": "/api/users/{userId}/properties/{propertyId}",
+      "type": "api",
+      "status": "success",
+      "method": "PATCH"
+    },
+    {
+      "url": "/api/properties/search",
+      "type": "api",
+      "status": "success",
+      "method": "GET"
+    },
+    {
+      "url": "/api/properties/{propertyId}",
+      "type": "api",
+      "status": "success",
+      "method": "GET"
+    },
+    {
+      "url": "/api/bookings",
+      "type": "api",
+      "status": "success",
+      "method": "POST"
+    },
+    {
+      "url": "/api/reviews",
+      "type": "api",
+      "status": "success",
+      "method": "POST"
+    },
+    {
+      "url": "/api/payments/stripe/create-session",
+      "type": "api",
+      "status": "success",
+      "method": "POST"
+    },
+    {
+      "url": "/api/payments/stripe/webhook",
+      "type": "api",
+      "status": "success",
+      "method": "POST"
+    },
+    {
+      "url": "dashboard/vendor/properties/page.tsx",
+      "type": "page",
+      "status": "error",
+      "userType": "vendor",
+      "access": "private",
+      "error": "Cannot read properties of undefined (reading 'map')"
+    },
+    {
+      "url": "dashboard/vendor/properties/create/page.tsx",
+      "type": "page",
+      "status": "error",
+      "userType": "vendor",
+      "access": "private",
+      "error": "Cannot read properties of undefined (reading 'map')"
+    },
+    {
+      "url": "dashboard/buyer/properties/page.tsx",
+      "type": "page",
+      "status": "error",
+      "userType": "buyer",
+      "access": "public",
+      "error": "Cannot read properties of undefined (reading 'map')"
+    },
+    {
+      "url": "dashboard/buyer/reviews/page.tsx",
+      "type": "page",
+      "status": "error",
+      "userType": "buyer",
+      "access": "private",
+      "error": "Cannot read properties of undefined (reading 'map')"
+    },
+    {
+      "url": "dashboard/buyer/bookings/payment/page.tsx",
+      "type": "page",
+      "status": "error",
+      "userType": "buyer",
+      "access": "private",
+      "error": "Cannot read properties of undefined (reading 'map')"
+    },
+    {
+      "url": "/(auth)/register/page.tsx",
+      "type": "page",
+      "status": "success",
+      "access": "public",
+      "userType": "all"
+    },
+    {
+      "url": "/(auth)/login/page.tsx",
+      "type": "page",
+      "status": "success",
+      "access": "public",
+      "userType": "all"
+    }
+  ]
+}
